@@ -1,0 +1,25 @@
+0: label func_sum_and_print:
+1: t1 = a + b
+2: c = t1
+3: t2 = 10
+4: if c > t2 goto L2
+5: goto L3
+6: label L2:
+7: param c
+8: t3 = call print, 1
+9: goto L1
+10: label L3:
+11: t4 = 2
+12: t5 = c * t4
+13: c = t5
+14: label L1:
+15: return c
+16: return
+17: t6 = 3
+18: param t6
+19: t7 = 9
+20: param t7
+21: t8 = call sum_and_print, 2
+22: x = t8
+23: param x
+24: t9 = call print, 1
